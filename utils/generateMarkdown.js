@@ -23,28 +23,28 @@ class markDown {
 
   static renderLicenseBadge(license) {
     const badge = {
-      gnuapglv3: '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)',
-      gnugplv3: '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-      gnulgplv3: '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)',
-      mozilla: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
-      mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-      apache: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-      boost: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)',
-      unlicense: '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
+      'GNU AGPLv3': '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)',
+      'GNU GPLv3': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
+      'GNU LGPLv3': '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)',
+      'Mozilla': '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
+      'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+      'Apache': '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+      'Boost': '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)',
+      'Unlicense': '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
     }
     return badge[license]
   }
 
   static renderLicenseLink(license) {
     const licenseLink = {
-      gnuapglv3: '[GNUAPGLv3](https://www.gnu.org/licenses/agpl-3.0)',
-      gnugplv3: '[GNUGPLv3](https://www.gnu.org/licenses/gpl-3.0)',
-      gnulgplv3: '[GNULGPLv3](https://www.gnu.org/licenses/lgpl-3.0)',
-      mozilla: '[MOZILLA](https://opensource.org/licenses/MPL-2.0)',
-      mit: '[MIT](https://opensource.org/licenses/MIT)',
-      apache: '[APACHE](https://opensource.org/licenses/Apache-2.0)',
-      boost: '[BOOST](https://www.boost.org/LICENSE_1_0.txt)',
-      unlicense: '[UNLICENSE](http://unlicense.org/)'
+      'GNU AGPLv3': '[GNUAPGLv3](https://www.gnu.org/licenses/agpl-3.0)',
+      'GNU GPLv3': '[GNUGPLv3](https://www.gnu.org/licenses/gpl-3.0)',
+      'GNU LGPLv3': '[GNULGPLv3](https://www.gnu.org/licenses/lgpl-3.0)',
+      'Mozilla': '[MOZILLA](https://opensource.org/licenses/MPL-2.0)',
+      'MIT': '[MIT](https://opensource.org/licenses/MIT)',
+      'Apache': '[APACHE](https://opensource.org/licenses/Apache-2.0)',
+      'Boost': '[BOOST](https://www.boost.org/LICENSE_1_0.txt)',
+      'Unlicense': '[UNLICENSE](http://unlicense.org/)'
     }
     return licenseLink[license]
   }
@@ -92,8 +92,8 @@ ${this.renderLicenseBadge(data.license)}
 ---
 ## License
   License used for this project - ${data.license}
+
   License: ${this.renderLicenseSection(data.license)}
-  Link: ${this.renderLicenseLink(data.license)}
 
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).

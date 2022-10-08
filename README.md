@@ -1,8 +1,8 @@
 
     
-# weather
+# test
 
-undefined
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contents
   1. [About](#about)
@@ -17,23 +17,23 @@ undefined
   6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
 ---
 ## About
- ### weather
+ ### test
 ---
 ## Usage Info
-  ### weather
+  ### test
 ---
 ## Installation:
   Click the link below to go to the repository and clone the project
 
   To clone the repo:
   
-      git clone weather
+      git clone test
   
 ---
 ## License
   License used for this project - MIT
-  License: Licensed under the undefined license.
-  Link: undefined
+
+  License: Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
@@ -50,13 +50,13 @@ undefined
   Following a code review, your feature will be merged.
 
   Additional info below
-  weather
+  test
 ---
 ## Tests:
-  weather
+  test
   
 ---
 ## Questions and Comments:
-* GitHub Username: weather
-* GitHub Email: weather
+* GitHub Username: test
+* GitHub Email: test
 
