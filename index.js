@@ -18,6 +18,7 @@
 // Packages needed for the application
 const inquirer = require('inquirer');
 const markDown = require('./utils/generateMarkdown');
+const fs = require('fs');
 
 // application questions
 const questions = [
@@ -50,10 +51,16 @@ const questions = [
     }
   },
 
+  // {
+  //   type: 'input',
+  //   name: 'install',
+  //   message: 'Please enter any installation instructions' 
+  // },
+
   {
     type: 'input',
-    name: 'install',
-    message: 'Please enter any installation instructions' 
+    name: 'clone',
+    message: 'Please enter your repository link for cloning project'
   },
 
   {
@@ -100,8 +107,13 @@ function runQuery() {
   return inquirer.prompt(questions)
   .then((data) => {
       const mark = markDown.generateReadMe(data)
-      console.log(mark)
-      return data;
+      fs.writeFile('README.md', mark, function(err) {
+        if (err) {
+          console.log('Could not save file', err)
+        } else {
+          console.log('Successfully wrote README.md file in root directory')
+        }
+      })
     })
 
     .catch((error) => {

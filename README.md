@@ -1,29 +1,6 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
-
-// `;
-// }
-
-// module.exports = generateMarkdown;
-
-class markDown {
-  static generateReadMe(data) {
-    return `
     
-# ${data.title}
+# test
 
 ## Contents
   1. [About](#about)
@@ -38,21 +15,20 @@ class markDown {
   6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
 ---
 ## About
-  ${data.description}
+  test
 ---
 ## Usage Info
   
 ---
 ## Installation:
-  Click the link below to go to the repository and clone the project
-  
+  test
   To clone the repo:
   
-      git clone ${data.clone}
+      git clone test
   
 ---
 ## License
-  License used for this project - ${data.license}
+  License used for this project - GNU AGPLv3
 
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
@@ -69,18 +45,13 @@ class markDown {
   Following a code review, your feature will be merged.
 
   Additional info below
-  ${data.contribution}
+  test
 ---
 ## Tests:
-  ${data.test}
+  test
   
 ---
 ## Contact Information:
-* GitHub Username: ${data.github}
-* GitHub Email: ${data.email}
+* GitHub Username: test
+* GitHub Email: test
 
-`
-  }
-}
-
-module.exports = markDown
