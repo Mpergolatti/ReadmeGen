@@ -38,14 +38,14 @@ class markDown {
   6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
 ---
 ## About
-  ${data.description}
+ ### ${data.description}
 ---
 ## Usage Info
-  
+  ### ${data.usage}
 ---
 ## Installation:
   Click the link below to go to the repository and clone the project
-  
+
   To clone the repo:
   
       git clone ${data.clone}
@@ -75,7 +75,7 @@ class markDown {
   ${data.test}
   
 ---
-## Contact Information:
+## Questions and Comments:
 * GitHub Username: ${data.github}
 * GitHub Email: ${data.email}
 

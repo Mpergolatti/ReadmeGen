@@ -15,13 +15,14 @@
   6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
 ---
 ## About
-  test
+ ### test
 ---
 ## Usage Info
-  
+  ### test
 ---
 ## Installation:
-  test
+  Click the link below to go to the repository and clone the project
+
   To clone the repo:
   
       git clone test
@@ -51,7 +52,7 @@
   test
   
 ---
-## Contact Information:
+## Questions and Comments:
 * GitHub Username: test
 * GitHub Email: test
 
