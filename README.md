@@ -1,8 +1,8 @@
 
     
-# test
+# This is a test
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Contents
   1. [About](#about)
@@ -17,23 +17,22 @@
   6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
 ---
 ## About
- ### test
+ ### This is also a test
 ---
 ## Usage Info
-  ### test
+  ### N/A
 ---
 ## Installation:
   Click the link below to go to the repository and clone the project
 
   To clone the repo:
   
-      git clone test
+      git clone https://github.com/Mpergolatti/ReadmeGen
   
 ---
-## License
-  License used for this project - MIT
+## License:
 
-  License: Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  Licensed under the [MOZILLA](https://opensource.org/licenses/MPL-2.0) license.
 
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
@@ -50,13 +49,13 @@
   Following a code review, your feature will be merged.
 
   Additional info below
-  test
+  N/A
 ---
 ## Tests:
-  test
+  N/A
   
 ---
 ## Questions and Comments:
-* GitHub Username: test
-* GitHub Email: test
+* GitHub Username: Mpergolatti
+* GitHub Email: Mpergolatti@gmail.com
 

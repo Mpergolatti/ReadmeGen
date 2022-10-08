@@ -90,10 +90,9 @@ ${this.renderLicenseBadge(data.license)}
       git clone ${data.clone}
   
 ---
-## License
-  License used for this project - ${data.license}
+## License:
 
-  License: ${this.renderLicenseSection(data.license)}
+  ${this.renderLicenseSection(data.license)}
 
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
@@ -109,7 +108,8 @@ ${this.renderLicenseBadge(data.license)}
   - Create a new Pull Request
   Following a code review, your feature will be merged.
 
-  Additional info below
+  Additional info below:
+
   ${data.contribution}
 ---
 ## Tests:

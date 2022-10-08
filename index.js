@@ -26,7 +26,7 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'Please enter the title of your project',
+    message: 'Please enter the title of your project: ',
     validate: titleInput => {
       if (titleInput) {
         return true;
@@ -40,7 +40,7 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'Please describe your project',
+    message: 'Please describe your project: ',
     validate: descriptRequire => {
       if (descriptRequire) {
         return true;
@@ -60,44 +60,44 @@ const questions = [
   {
     type: 'input',
     name: 'clone',
-    message: 'Please enter your repository link for cloning project'
+    message: 'Please enter your repository link for cloning project: '
   },
 
   {
     type: 'input',
     name: 'usage',
-    message: 'Please enter any usage information you may have.'
+    message: 'Please enter any usage information you may have: '
   },
 
   {
     type: 'input',
     name: 'contribution',
-    message: 'Please enter contribution information'
+    message: 'Please enter contribution information: '
   },
 
   {
     type: 'checkbox',
     name: 'license',
-    message: 'Select which license you would like to use from the following list',
+    message: 'Select which license you would like to use from the following list: ',
     choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla', 'MIT', 'Apache', 'Boost', 'Unlicense']
   },
 
   {
     type: 'input',
     name: 'test',
-    message: 'Please enter any testing info'
+    message: 'Please enter any testing info: '
   },
 
   {
     type: 'input',
     name: 'github',
-    message: 'Please enter your gitHub username'
+    message: 'Please enter your gitHub username: '
   },
 
   {
     type: 'input',
     name: 'email',
-    message: 'Please enter your eMail'
+    message: 'Please enter your eMail: '
   }
 
 ];
