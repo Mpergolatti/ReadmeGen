@@ -17,6 +17,7 @@
 
 // Packages needed for the application
 const inquirer = require('inquirer');
+const markDown = require('./utils/generateMarkdown');
 
 // application questions
 const questions = [
@@ -97,9 +98,10 @@ const questions = [
 // Run Query Function
 function runQuery() {
   return inquirer.prompt(questions)
-    .then((answers) => {
-      console.log(answers)
-      return answers
+  .then((data) => {
+      const mark = markDown.generateReadMe(data)
+      console.log(mark)
+      return data;
     })
 
     .catch((error) => {

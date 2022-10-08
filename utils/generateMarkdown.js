@@ -81,3 +81,5 @@ class markDown {
     `
   }
 }
+
+module.exports = markDown
