@@ -79,7 +79,7 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: 'Select which license you would like to use from the following list',
-    choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla', 'MIT', 'Apache', 'Boost']
+    choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla', 'MIT', 'Apache', 'Boost', 'Unlicense']
   },
 
   {
